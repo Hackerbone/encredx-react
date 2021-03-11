@@ -118,7 +118,7 @@ const Play = () =>{
                     </audio>
                          
                          :imgurl?
-                         <img style="width:200px; height:100px" src={imgurl} alt="image"/>
+                         <img style={`width:200px; height:100px`} src={imgurl} alt={`question`}/>
                          :
                          <></>
                          }
