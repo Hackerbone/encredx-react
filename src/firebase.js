@@ -4,12 +4,12 @@ import 'firebase/auth';
 
 
 var firebaseConfig = {
-    apiKey: process.env.API_KEY,
-    authDomain: process.env.AUTH_DOMAIN,
-    databaseURL: process.env.DATABASE_URL,
-    projectId: process.env.PROJECT_ID,
-    storageBucket: process.env.STORAGE_BUCKET,
-    messagingSenderId: process.env.MESSAGING_SENDER_ID,
-    appId: process.env.APP_ID
+  apiKey: "AIzaSyCzmMl4SzUWvaG5sukLwUFLz-2LXA5AjSc",
+  authDomain: "react-login-signup-dfae3.firebaseapp.com",
+  databaseURL: "https://react-login-signup-dfae3.firebaseio.com",
+  projectId: "react-login-signup-dfae3",
+  storageBucket: "react-login-signup-dfae3.appspot.com",
+  messagingSenderId: "558413134085",
+  appId: "1:558413134085:web:0d3aa13d7733b6c2139f6c"
   };
   export default !firebase.apps.length ? firebase.initializeApp(firebaseConfig) : firebase.app();
